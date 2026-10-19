@@ -1,0 +1,41 @@
+Supposons que tu ne sois plus en mesure de réaliser certaines tâches et que tu doives les déléguer à une personne plus expérimentée ou plus responsable.
+Il faut alors préparer un briefing complet du projet afin que la personne puisse rapidement comprendre le contexte et reprendre le travail efficacement.
+Le briefing devra notamment présenter :
+Le contexte et les objectifs du projet
+La structure actuelle du dossier et l’organisation des différents fichiers
+Ce qui a déjà été réalisé et l’état d’avancement actuel
+Ce qui reste à faire, avec les tâches prioritaires
+Les fichiers concernés, notamment les fichiers existants et ceux qui doivent encore être créés
+Pour chaque fichier à créer ou à modifier, préciser son rôle, son contenu attendu et les éléments qui doivent y figurer
+Indiquer également les éventuelles dépendances, contraintes, points d’attention ou décisions importantes à connaître avant de poursuivre le projet
+L’objectif est que la personne à qui le projet est délégué puisse comprendre rapidement où en est le projet, comment il est structuré, ce qui a été fait, ce qu’il reste à faire et exactement quoi faire dans chaque fichier, sans avoir besoin de repartir de zéro.
+
+
+
+
+
+
+
+
+Nous allons avancer étape par étape, en respectant strictement l’ordre des priorités.
+Principe de travail :
+Présente-moi une seule méthode à la fois, avec des étapes complètes et précises à suivre et à tester.
+Une fois cette méthode appliquée et validée, nous passerons à la suivante, selon l’ordre de priorité.
+Pour chaque étape :
+Tu me donnes une seule action prioritaire à réaliser.
+Je t’envoie le fichier concerné.
+Tu analyses son contenu en tenant compte simultanément des objectifs de la page Projets et de mes besoins personnels.
+Tu ne codes pas à ma place. Tu me donnes uniquement :
+les réajustements nécessaires ;
+les idées d’amélioration ;
+une description précise de ce que le fichier doit faire ou afficher après réajustement ;
+les points techniques auxquels je dois faire attention.
+C’est moi qui conçois et écris le code réajusté à partir de tes recommandations.
+Je mets le fichier à jour et je teste le résultat dans mon projet.
+Seulement après validation du test, nous passons au fichier suivant.
+L’objectif est donc que tu sois mon guide et conseiller technique, tandis que je reste celui qui conçoit et implémente les modifications dans le code.
+
+
+
+
+

@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Disponible pour projets à fort impact",
+    "title_part1": "Transformez votre idée en un",
+    "title_highlight": "produit web performant et scalable.",
+    "title_part2": "",
+    "subtitle": "Que vous lanciez un MVP, un SaaS ou que vous amélioriez une application existante, je vous accompagne du concept à l'optimisation : lancez plus vite, offrez une meilleure expérience utilisateur et faites évoluer votre produit en toute confiance.",
+    "cta_projects": "Découvrir mes réalisations",
+    "cta_contact": "Lancer un projet"
+  },
+  "about": {
+    "badge": "À Propos",
+    "download_cv": "Télécharger le CV",
+    "stats_title": "Chiffres Clés",
+    "values_title": "Ma Philosophie de Travail"
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Projets Récents & Solutions SaaS",
+    "subtitle": "Découvrez mes plateformes web, produits SaaS et outils métiers.",
+    "view_details": "Voir les Détails",
+    "view_demo": "Démo en Ligne",
+    "view_github": "Code Source",
+    "modal": {
+      "problem": "La Problématique",
+      "features": "Fonctionnalités Clés",
+      "technologies": "Technologies Utilisées",
+      "gallery": "Aperçu de l'Interface"
+    }
+  },
+  "projectCard": {
+    "expand": "Agrandir l'aperçu",
+    "noScreens": "Captures HD en cours d'intégration",
+    "screens": "Écrans :",
+    "problemTitle": "La Problématique",
+    "solutionTitle": "La Solution",
+    "featuresTitle": "Fonctionnalités Clés",
+    "demoVideo": "Démonstration Vidéo",
+    "githubPro": "GitHub — Pro",
+    "inspect": "Explorer la Galerie",
+    "close": "Fermer"
+  },
+  "skills": {
+    "badge": "Stack Technique",
+    "title": "Compétences & Expertise",
+    "subtitle": "Les outils et technologies que j'utilise pour développer des applications performantes."
+  },
+  "experience": {
+    "badge": "Parcours",
+    "title": "Expérience Professionnelle",
+    "subtitle": "Mon cheminement dans l'ingénierie logicielle et le développement web."
+  },
+  "contact": {
+    "badge": "Me Contacter",
+    "title": "Travaillons Ensemble",
+    "subtitle": "Vous avez un projet en tête ou besoin d'un développeur Full-Stack ? N'hésitez pas à me contacter.",
+    "socials_title": "Réseaux Sociaux",
+    "form": {
+      "name_label": "Votre Nom",
+      "name_placeholder": "Jean Dupont",
+      "email_label": "Votre Email",
+      "email_placeholder": "jean@example.com",
+      "subject_label": "Sujet",
+      "subject_placeholder": "Projet SaaS / Opportunité Freelance",
+      "message_label": "Message",
+      "message_placeholder": "Décrivez votre projet ou vos besoins techniques...",
+      "submit_btn": "Envoyer le message 🚀",
+      "submitting_btn": "Envoi en cours...",
+      "success_title": "Message envoyé avec succès !",
+      "success_desc": "Merci de m'avoir contacté. Je vous répondrai dans les plus brefs délais.",
+      "another_msg_btn": "Envoyer un autre message"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "back": "Retour",
+    "loading": "Chargement..."
+  }
+}

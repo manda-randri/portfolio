@@ -1,0 +1,220 @@
+npm run dev
+
+
+
+
+
+
+TON PC
+  │
+  │ Git
+  ▼
+Repository local
+  │
+  │ push
+  ▼
+GitHub
+  │
+  ▼
+Repository en ligne
+
+
+
+
+
+GitHub
+   ↓
+code source
+
+Serveur
+   ↓
+application SaaS
+
+
+
+
+
+
+
+                  DÉVELOPPEMENT
+                       │
+                       ▼
+                 TON ORDINATEUR
+                       │
+                       │ Git
+                       ▼
+                Git repository
+                       │
+                       │ push
+                       ▼
+                    GitHub
+                       │
+                       │ déploiement
+                       ▼
+                  PRODUCTION
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+           Frontend          Backend
+                                 │
+                                 ▼
+                             Database
+                                 │
+                                 ▼
+                              SaaS
+                                 │
+                                 ▼
+                             CLIENT
+
+
+
+
+                             
+                             
+Git = historique du code
+GitHub = stockage/collaboration du code
+Serveur/Cloud = exécution du SaaS
+Domaine = adresse du SaaS
+Database = données du SaaS
+Livraison = rendre tout cela fonctionnel et transférer proprement au client
+
+Et surtout : tu ne "livres pas GitHub" au client comme si GitHub était le produit. Tu livres un produit fonctionnel + son code + sa configuration + sa documentation + les accès/propriétés convenus.
+
+
+
+
+
+
+
+Git = historique du code
+GitHub = stockage/collaboration du code
+Serveur/Cloud = exécution du SaaS
+Domaine = adresse du SaaS
+Database = données du SaaS
+Livraison = rendre tout cela fonctionnel et transférer proprement au client
+
+Et surtout : tu ne "livres pas GitHub" au client comme si GitHub était le produit.
+Tu livres un produit fonctionnel + son code + sa configuration + sa documentation + les accès/propriétés convenus.
+
+
+
+
+
+TOI
+│
+└── n'interviens plus
+
+CLIENT
+│
+├── possède le domaine
+├── possède le serveur
+├── possède la database
+└── possède le code
+
+
+
+
+
+Client
+   ├────────→ Hébergeur
+   ├────────→ Domaine
+   ├────────→ Database
+   └────────→ Services externes
+
+Toi
+   └────────→ accès technique
+
+
+
+
+Je  développes le SaaS sur ton ordinateur, Git enregistre l'évolution de ton code, GitHub permet de stocker et partager ce code, le déploiement place l'application sur une infrastructure de production, le frontend/backend/database font fonctionner le SaaS, puis la livraison consiste à remettre au client le produit fonctionnel ainsi que le code, la documentation et les accès convenus.
+Le client doit idéalement contrôler les ressources de production et payer les coûts récurrents du SaaS, tandis que toi tu factures ton développement et, éventuellement, ta maintenance.
+
+
+
+
+
+Fijerena structure frontend 
+
+function Show-ProjectTree {
+    param($Path = "C:\Users\TOSHIBA\Desktop\Portfolio", $Depth = 3)
+    
+    function Show-Item($Item, $CurrentDepth, $Prefix = "") {
+        if ($CurrentDepth -gt $Depth) { return }
+        
+        $name = $Item.Name
+        if ($Item.PSIsContainer) {
+            Write-Host "$Prefix📁 $name" -ForegroundColor Cyan
+            Get-ChildItem $Item.FullName | ForEach-Object {
+                Show-Item $_ ($CurrentDepth + 1) ($Prefix + "    ")
+            }
+        } else {
+            Write-Host "$Prefix📄 $name" -ForegroundColor Gray
+        }
+    }
+    
+    Show-Item (Get-Item $Path) 0
+}
+
+Show-ProjectTree
+
+
+
+
+
+
+oke d ito raha hiditra sous dossier  
+
+
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -notmatch 'node_modules|dist' } | Select-Object FullName
+
+
+
+ito raha projetc 
+
+
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'project' } | Select-Object FullName
+
+
+
+
+
+
+
+Pour filtrer sur d'autres dossiers ou mots-clés, il suffit de remplacer 'project' par le nom de l'élément recherché entre guillemets simple.
+Voici la commande de base et plusieurs exemples prêts à employer :
+La formule générale
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'VOTRE_MOT_CLE' } | Select-Object FullName
+
+Exemples d'utilisation selon vos besoins
+1. Pour la section Hero (fond, animations, canvas) :
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'hero' } | Select-Object FullName
+
+2. Pour les composants UI (boutons, sélecteur de langue, thème) :
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'components' } | Select-Object FullName
+
+3. Pour la traduction et localisation (fichiers de langue) :
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'locales|i18n' } | Select-Object FullName
+
+4. Pour chercher plusieurs mots à la fois (ex: hero OU project) :
+Utilisez le symbole | entre les mots pour dire "ou".
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.FullName -match 'hero|project' } | Select-Object FullName
+
+5. Pour afficher uniquement les fichiers TypeScript (.tsx et .ts) :
+PowerShell
+Get-ChildItem -Path "C:\Users\TOSHIBA\Desktop\Portfolio\portfolio\src" -Recurse | Where-Object { $_.Extension -match '\.ts|\.tsx' } | Select-Object FullName
+ "
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for High-Impact Projects",
+    "title_part1": "Turn your idea into a",
+    "title_highlight": "high-performing, scalable",
+    "title_part2": "web product.",
+    "subtitle": "Whether you’re launching an MVP, SaaS, or improving an existing application, I help you go from concept to optimization—launch faster, deliver a better user experience, and evolve your product with confidence.",
+    "cta_projects": "Explore My Work",
+    "cta_contact": "Start a Project"
+  },
+  "about": {
+    "badge": "About Me",
+    "download_cv": "Download CV",
+    "stats_title": "Key Figures",
+    "values_title": "My Work Philosophy"
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Featured Projects & SaaS Solutions",
+    "subtitle": "Explore my recent web platforms, SaaS products, and custom software.",
+    "view_details": "View Details",
+    "view_demo": "Live Demo",
+    "view_github": "Source Code",
+    "modal": {
+      "problem": "The Problem",
+      "features": "Key Features",
+      "technologies": "Technologies Used",
+      "gallery": "Project Screenshots"
+    }
+  },
+  "projectCard": {
+    "expand": "Expand Preview",
+    "noScreens": "HD Screenshots under integration",
+    "screens": "Screenshots:",
+    "problemTitle": "The Problem",
+    "solutionTitle": "The Solution",
+    "featuresTitle": "Key Features",
+    "demoVideo": "Watch Demo",
+    "githubPro": "GitHub — Pro",
+    "inspect": "Explore Gallery",
+    "close": "Close"
+  },
+  "skills": {
+    "badge": "Tech Stack",
+    "title": "Skills & Technical Expertise",
+    "subtitle": "Tools and technologies I use to build scalable web applications."
+  },
+  "experience": {
+    "badge": "Career Path",
+    "title": "Professional Experience",
+    "subtitle": "My journey in software engineering and web application development."
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind or need a full-stack engineer? Feel free to reach out.",
+    "socials_title": "Connect on Social Networks",
+    "form": {
+      "name_label": "Your Name",
+      "name_placeholder": "John Doe",
+      "email_label": "Your Email",
+      "email_placeholder": "john@example.com",
+      "subject_label": "Subject",
+      "subject_placeholder": "SaaS Project / Freelance Opportunity",
+      "message_label": "Message",
+      "message_placeholder": "Describe your project or technical requirements...",
+      "submit_btn": "Send Message 🚀",
+      "submitting_btn": "Sending Message...",
+      "success_title": "Message Sent Successfully!",
+      "success_desc": "Thank you for reaching out. I will get back to you as soon as possible.",
+      "another_msg_btn": "Send Another Message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading..."
+  }
+}

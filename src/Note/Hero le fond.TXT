@@ -1,0 +1,18 @@
+Mémorisation & Gestion de la Vidéo (Scroll-Synced Canvas)
+Pour obtenir un rendu ultra-fluide à 60 FPS déclenché par le scroll sans saccades ni lenteurs d'un élément <video>, nous avons opté pour le rendu sur HTML5 Canvas par séquence d'images.
+
+Méthode de conversion (Vidéo vers Séquence JPG) :
+
+La vidéo originale d'arrière-plan de bureau est découpée en 90 images fixes (frames) au format .jpg (ou .webp pour optimiser le poids).
+
+Nommage strict des fichiers :
+
+Les fichiers doivent obligatoirement suivre un nommage à indexation fixe sur 3 chiffres :
+
+frame_001.jpg, frame_002.jpg, frame_003.jpg ... jusqu'à frame_090.jpg.
+
+Emplacement exact dans le projet :
+
+Dossier : public/frames/desk/
+
+Chemin d'accès relatif dans le code : /frames/desk/frame_XXX.jpg (accessible directement par le navigateur sans passer par le bundler Vite)
