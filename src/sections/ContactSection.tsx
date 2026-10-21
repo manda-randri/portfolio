@@ -105,9 +105,10 @@ export function ContactSection() {
     setErrorMessage('');
 
     try {
-      const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-      const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      // Identifiants EmailJS intégrés directement (sans passer par les variables d'environnement Vercel)
+      const serviceID = "service_6vs7bl8";   // Ex: "service_abc1234"
+      const templateID = "template_srgp2bc"; // Ex: "template_xyz9876"
+      const publicKey = "TIQmNd7yZuGe_RnHc";     // Ex: "XyZ_AbCdEfGhIjK"
 
       const templateParams = {
         from_name: formState.name,
